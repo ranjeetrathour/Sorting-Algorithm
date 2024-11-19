@@ -25,7 +25,7 @@ public class BubbleSort_Q_1 {
         System.out.println(Arrays.toString(unsorted));
     }
 
-    private static void swap(int[] a, int i, int i1) {
+    public static void swap(int[] a, int i, int i1) {
         int temp = a[i];
         a[i] = i1;
         a[i1] = temp;
